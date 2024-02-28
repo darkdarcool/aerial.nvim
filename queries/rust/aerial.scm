@@ -40,3 +40,8 @@
     type: (type_identifier) @rust_type)
   (#set! "kind" "Class")
   ) @symbol
+
+(const_item
+  name: (identifier) @name
+  (#set! "kind" "Constant")
+  ) @symbol 
